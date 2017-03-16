@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="c3848191-ca7c-4ce7-9dde-dc41fbede09c"
+  name="ClassDiagramWashMachine" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="4ffce1b9-63ca-4ca9-81d2-8a6b8b9adb88"
+        name="Пользователь"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4adf9892-0284-4da9-bbdb-bd1a956b8e73">
+            <useCaseMoniker
+              Id="65feed5c-2c61-4965-b568-e0affa297333"
+              LastKnownName="Остановить стирку"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+          <dependency
+            Id="b27e4885-3b68-4627-ab18-17fb6e8d7a04">
+            <useCaseMoniker
+              Id="9d2db86f-2717-4b8a-917e-f9a64079570e"
+              LastKnownName="Запустить стирку"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+          <dependency
+            Id="0ce27151-9d14-46f1-b8e4-a9e4507f6224">
+            <useCaseMoniker
+              Id="8eb5b3f3-f7d8-4b4d-a89e-ee61bce2caae"
+              LastKnownName="Закрыть дверь"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+          <dependency
+            Id="eff555e8-15a9-4b76-8739-321401c95d78">
+            <useCaseMoniker
+              Id="3f78617b-c499-49df-98b4-cee716cf024d"
+              LastKnownName="Открыть дверь"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+          <dependency
+            Id="c1e84ab7-7255-458b-867c-8e680c4daadf">
+            <useCaseMoniker
+              Id="bd1f502a-8f90-4b54-9a9f-f9afbff91b61"
+              LastKnownName="Выбрать моющее"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+          <dependency
+            Id="0a05b19d-1c00-4f23-9800-0a328a57cc2f">
+            <useCaseMoniker
+              Id="5911a998-e46e-4fb4-8a6e-d4c74d405831"
+              LastKnownName="Выбрать режим"
+              LastKnownLocation="ClassDiagramWashMachine.uml" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3f78617b-c499-49df-98b4-cee716cf024d"
+        name="Открыть дверь"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8eb5b3f3-f7d8-4b4d-a89e-ee61bce2caae"
+        name="Закрыть дверь"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bd1f502a-8f90-4b54-9a9f-f9afbff91b61"
+        name="Выбрать моющее"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5911a998-e46e-4fb4-8a6e-d4c74d405831"
+        name="Выбрать режим"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9d2db86f-2717-4b8a-917e-f9a64079570e"
+        name="Запустить стирку"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="65feed5c-2c61-4965-b568-e0affa297333"
+        name="Остановить стирку"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

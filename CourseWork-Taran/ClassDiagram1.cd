@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CourseWork_Taran.Loot">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAADAAAAEAAAAAAAACAAAIAAAAAAEAAg=</HashCode>
+      <FileName>Loot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseWork_Taran.Machine">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAACAAAAEBAIAEAAACAAAIAgAAAAEAAA=</HashCode>
+      <FileName>Machine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseWork_Taran.State">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAQCAEAAAAAAhAAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseWork_Taran.SystemMedia">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAQAAAAAEBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemMedia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseWork_Taran.MainWindow">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAACgAAAEBAGAAAAAAAAFAAAIAIQIABAAACIAEACE=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CourseWork_Taran.Load">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

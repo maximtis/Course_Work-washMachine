@@ -1,0 +1,115 @@
+﻿<Window x:Class="CourseWork_Taran.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700.851" Width="800">
+    <Grid Name="Grid_Wrapper" >
+        <Grid Name="WorkSpace" Visibility="Visible">
+            <Grid Name="Grid_Machine" Margin="0,0,291,0">
+                <Button Name="Button_Into_Control_Panel" Margin="330,57,41,555" Click="Button_Into_Control_Panel_Click"/>
+                <Button Opacity="0" Name="Button_Into_Loot" Margin="45,57,326,540" Click="Button_Into_Loot_Click"/>
+                <Button Visibility="Hidden" Name="Button_Rorarte_Door" Margin="65,135,65,163" Style="{DynamicResource RotateDoorStyle}" />
+                <Button Visibility="Hidden" Name="Button_Open_Door" Margin="65,135,65,163" Style="{DynamicResource RotateDoorStyle}" Click="Button_Open_Door_Click" />
+                <Button Opacity="0" Visibility="Visible" Name="Button_Closed_Door" Margin="65,135,65,163" Style="{DynamicResource RotateDoorStyle}" Click="Button_Closed_Door_Click" />
+
+            </Grid>
+        </Grid>
+        <Button Name="SplashGrid" 
+              Background="#4C4B4B" 
+              Visibility="Hidden" Style="{DynamicResource BackToWorkSpace}" Click="SplashGrid_Click"/>
+        <Grid Name="Grid_Control_Panel"
+                  Visibility="Hidden"
+                  Background="#E2E2E2"
+                  Margin="10,131,10,137">
+            <Label Content="Статус"
+                   FontSize="20"
+                   Margin="10,15,583,337"/>
+            <Label Content="Время работы"
+                   FontSize="20"
+                   Margin="10,91,583,261"/>
+            <Label Content="Температура воды"
+                   FontSize="20"
+                   Margin="422,91,164,261"/>
+
+            <TextBox Name="Text_Temperature_Info"
+                     Margin="324,86,388,261"
+                     Text="45"
+                     FontSize="30"
+                     Foreground="GreenYellow"
+                     BorderBrush="GreenYellow"
+                     Background="Black"
+                     />
+            <TextBox Name="Text_Time_Info"
+                     Margin="189,86,448,213"
+                     BorderBrush="GreenYellow"
+                     Text="25м"
+                     FontSize="50"
+                     Foreground="GreenYellow"
+                     Background="Black"/>
+            <TextBox Name="Text_Status_Info"
+                     Margin="189,15,338,316"
+                     Foreground="GreenYellow"
+                     Text="Ожидание"
+                     FontSize="40"
+                     BorderBrush="GreenYellow"
+                     Background="Black"/>
+            <Button Name="Button_State_1"
+                Content="Режим 1" 
+                FontSize="15"
+                HorizontalAlignment="Left"
+                Margin="45,227,0,0"
+                VerticalAlignment="Top"
+                Width="90" Height="50" Click="Button_State_1_Click" />
+            <Button Name="Button_State_2"
+                Content="Режим 2"
+                FontSize="15"
+                HorizontalAlignment="Left"
+                Margin="200,227,0,0"
+                VerticalAlignment="Top"
+                Width="90" Height="50" Click="Button_State_2_Click"/>
+            <Button Name="Button_State_3"
+                Content="Режим 3" 
+                FontSize="15" 
+                HorizontalAlignment="Left"
+                Margin="355,227,0,0" 
+                VerticalAlignment="Top"
+                Width="90" Height="50" Click="Button_State_3_Click"/>
+            <Border Name="Indecator" Background="Red" CornerRadius="50" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="70" Margin="630,41,0,0" VerticalAlignment="Top" Width="70"/>
+            <TextBox Name="Info"
+                Foreground="GreenYellow"
+                     BorderBrush="GreenYellow"
+                     Background="Black"
+                     HorizontalAlignment="Left" 
+                     Height="48" Margin="324,141,0,0"
+                     TextWrapping="Wrap"
+                     TextAlignment="Center"
+                     FontSize="20"
+                     Text="Все в норме"
+                     VerticalAlignment="Top" Width="207"/>
+            <Button x:Name="Button_Start"
+            	Content="Начть работу" 
+            	FontSize="15"
+            	HorizontalAlignment="Left"
+            	Margin="45,309,0,0"
+            	VerticalAlignment="Top"
+            	Width="114" Height="50" Click="Button_Start_Click"/>
+            <Button x:Name="Button_Stop"
+            	Content="Остановить" 
+            	FontSize="15"
+            	HorizontalAlignment="Left"
+            	Margin="189,309,0,0"
+            	VerticalAlignment="Top"
+            	Width="101" Height="50" Click="Button_Stop_Click" />
+
+        </Grid>
+        <Grid Name="Grid_Loot_Door"
+                  Visibility="Hidden"
+                  Background="#E2E2E2"
+                  Margin="10,131,10,137">
+            <Button FontSize="30" Content="Порошок + Гель" HorizontalAlignment="Left" Margin="32,82,0,0" VerticalAlignment="Top" Width="272" Height="278" Click="Button_Click"/>
+            <Button FontSize="30" Content="Порошок" HorizontalAlignment="Left" Margin="322,82,0,0" VerticalAlignment="Top" Width="189" Height="278" Click="Button_Click_1"/>
+            <Button FontSize="30" Content="Гель" HorizontalAlignment="Left" Margin="533,82,0,0" VerticalAlignment="Top" Width="191" Height="278" Click="Button_Click_2"/>
+
+        </Grid>
+    </Grid>
+
+</Window>

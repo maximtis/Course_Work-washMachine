@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="cf813494-cc1a-41bb-9289-6b85428681f4" name="UMLUseCaseDiagram1" linkedPackageId="346f9f0f-7fdf-4fc1-a3ce-df0c74808278" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="fc00b654-2480-45b3-bc42-62de49cee9f8">
+      <profileInstance Id="91ef36cb-80fb-4052-8f9c-c77fd64c7dec" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f35fdb31-8e21-4799-85b3-dc61bf778b83">
+      <profileInstance Id="37012693-55e6-476b-af81-707db75af59b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="fd832347-5bf3-4a07-801d-aa265b58b366" name="Пользователь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4ffce1b9-63ca-4ca9-81d2-8a6b8b9adb88" />
+        <suppliersInternal>
+          <dependency Id="b5242481-9d1c-4d0c-9c74-37b42abd0ef3">
+            <useCaseMoniker Id="8b740ba8-c3d2-4150-8c24-c4161c10441e" LastKnownName="Остановить стирку" />
+            <elementDefinition Id="4adf9892-0284-4da9-bbdb-bd1a956b8e73" />
+          </dependency>
+          <dependency Id="9c8d56f7-ae25-44eb-b535-f656bf3fafe8">
+            <useCaseMoniker Id="0ddfe707-e491-4dab-b7c6-ee0090affe5a" LastKnownName="Запустить стирку" />
+            <elementDefinition Id="b27e4885-3b68-4627-ab18-17fb6e8d7a04" />
+          </dependency>
+          <dependency Id="ca4bf50a-a20a-4a3f-9b2f-4dd20665c2c1">
+            <useCaseMoniker Id="a4cded44-83ef-434d-b2d6-b0764860fb21" LastKnownName="Закрыть дверь" />
+            <elementDefinition Id="0ce27151-9d14-46f1-b8e4-a9e4507f6224" />
+          </dependency>
+          <dependency Id="ccbafa7b-e6b3-4249-9446-31dddf99ba13">
+            <useCaseMoniker Id="e1b5697a-5111-4983-988f-b00cf74f256b" LastKnownName="Открыть дверь" />
+            <elementDefinition Id="eff555e8-15a9-4b76-8739-321401c95d78" />
+          </dependency>
+          <dependency Id="e37df11e-7e54-4409-81ce-9b9115dbac3a">
+            <useCaseMoniker Id="86be16b8-4145-4964-b99c-8f69b5b29228" LastKnownName="Выбрать моющее" />
+            <elementDefinition Id="c1e84ab7-7255-458b-867c-8e680c4daadf" />
+          </dependency>
+          <dependency Id="63981fd2-d99f-4c9f-a592-391b4238a846">
+            <useCaseMoniker Id="d4917c52-40df-403a-8fa7-16fcee57251f" LastKnownName="Выбрать режим" />
+            <elementDefinition Id="0a05b19d-1c00-4f23-9800-0a328a57cc2f" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e1b5697a-5111-4983-988f-b00cf74f256b" name="Открыть дверь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f78617b-c499-49df-98b4-cee716cf024d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a4cded44-83ef-434d-b2d6-b0764860fb21" name="Закрыть дверь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8eb5b3f3-f7d8-4b4d-a89e-ee61bce2caae" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="86be16b8-4145-4964-b99c-8f69b5b29228" name="Выбрать моющее" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bd1f502a-8f90-4b54-9a9f-f9afbff91b61" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d4917c52-40df-403a-8fa7-16fcee57251f" name="Выбрать режим" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5911a998-e46e-4fb4-8a6e-d4c74d405831" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0ddfe707-e491-4dab-b7c6-ee0090affe5a" name="Запустить стирку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d2db86f-2717-4b8a-917e-f9a64079570e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8b740ba8-c3d2-4150-8c24-c4161c10441e" name="Остановить стирку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="65feed5c-2c61-4965-b568-e0affa297333" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="346f9f0f-7fdf-4fc1-a3ce-df0c74808278" name="ClassDiagramWashMachine">
+    <elementDefinition Id="c3848191-ca7c-4ce7-9dde-dc41fbede09c" />
+  </package>
+</useCaseModelRoot>
